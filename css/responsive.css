@@ -1,1 +1,173 @@
-ÿþ
+/* Basic Styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Grid System */
+.full-width {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 50%;
+  float: left;
+}
+
+.third-width {
+  width: 30%;
+  float: left;
+}
+
+/* Header */
+header {
+  background-color: firebrick;
+  height: 125px;
+}
+
+header .full-width {
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 32px;
+  font-family: 'Special Elite', cursive;
+  color: #FFF;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul li {
+  display: inline-block;
+  font-weight: bold;
+}
+
+header nav ul li a {
+  color: #FFF;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+/* About */
+#about {
+  height: 875px;
+}
+
+#about h2 {
+  font-family: 'Special Elite', cursive;
+  font-size: 32px;
+  color: darkblue;
+}
+
+#about p {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+#about span {
+  color: darkblue;
+  font-weight: bold;
+}
+
+#about ul li {
+  list-style: none;
+}
+
+#about img {
+  height: 500px;
+}
+
+#about button {
+  background-color: darkblue;
+  font-size: 16px;
+  padding: 15px;
+}
+
+#about button a {
+  color: #FFF;
+}
+
+/* Portfolio */
+#portfolio {
+  height: 500px;
+}
+
+#portfolio .full-width {
+  padding: 50px 0;
+}
+
+#portfolio .third-width {
+  padding-left: 25px;
+}
+
+#portfolio h2 {
+  font-family: 'Special Elite', cursive;
+  font-size: 32px;
+  color: darkblue;
+}
+
+#portfolio img {
+  padding-bottom: 15px;
+}
+
+#portfolio h3 {
+  font-size: 22px;
+}
+
+/* Contact */
+#contact {
+  height: 500px;
+}
+
+#contact h2 {
+  font-family: 'Special Elite', cursive;
+  font-size: 32px;
+  color: darkblue;
+}
+
+#contact img {
+  height: 425px;
+}
+
+#contact p {
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+/* Footer */
+footer {
+  height: 75px;
+  background-color: firebrick;
+}
+
+footer p {
+  font-size: 16px;
+  color: #FFF;
+}
+
+footer nav {
+  float: left;
+}
+
+footer nav ul li {
+  display: inline-block;
+}
+
+footer nav ul li i {
+  color: #FFF;
+  text-decoration: none;
+  padding-left: 15px;
+}
