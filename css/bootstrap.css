@@ -1,14 +1,8 @@
-@media (min-width: 600px) {
-  h1, h2 {
-    font-size: 32px;
-  }
-
-  h3 {
-    font-size: 22px;
-  }
-
-  p {
-    font-size: 20px;
+@media (min-width: 320px) and (max-width: 480px) {
+  #navbar {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -23,7 +17,7 @@
 }
 
 #navbar ul {
-  float: right;
+  float: left;
 }
 
 #navbar ul li {
@@ -38,15 +32,10 @@
   padding-left: 40px;
 }
 
-main {
-  margin-top: 50px;
-}
-
 /* Welcome Section */
 #welcome-section {
-  width: 100%;
+  height: 23vh;
   padding: 50px 0;
-  min-height: 100vh;
 }
 
 #welcome-section h1 {
@@ -68,7 +57,7 @@ main {
 
 /* Projects */
 #projects {
-  height: 955px;
+  height: 500px;
   padding: 20px 0;
 }
 
@@ -85,7 +74,7 @@ main {
 }
 
 #projects img {
-  padding-left: 150px;
+  padding-left: 200px;
   padding-bottom: 15px;
 }
 
@@ -98,8 +87,8 @@ main {
 
 /* Blogs */
 #blogs {
-  height: 430px;
-  padding: 20px 0;
+  height: 500px;
+  padding: 50px 0;
 }
 
 #blogs h2 {
@@ -117,6 +106,7 @@ main {
 #blogs p {
   font-size: 20px;
   line-height: 20px;
+  padding: 20px 0;
 }
 
 #blogs button a {
@@ -128,7 +118,7 @@ main {
 
 /* Contact */
 #contact {
-  height: 330px;
+  height: 500px;
   padding: 20px 0;
 }
 

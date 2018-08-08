@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Page</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -9,25 +10,27 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
   <body>
-    <nav id="navbar">
-      <ul>
-        <li><a href="#welcome-section">Welcome</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#blogs">Blogs</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <nav id="navbar">
+          <ul>
+            <li><a href="#welcome-section">Welcome</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
 
-    <main>
-      <div class="container">
-        <section id="welcome-section">
-          <div class="col-xs-12">
-            <div class="row">
+      <main>
+        <div class="col-xs-12">
+          <div class="row">
+            <section id="welcome-section">
               <h1><span>Hello World!</span> I'm Sarah Bartley!</h1>
               <h3>Front-end Web Developer and Content Creator</h3>
-            </div>
+            </section>
           </div>
-        </section>
+        </div>
 
         <section id="projects">
           <div class="col-xs-12">
@@ -49,43 +52,6 @@
                 </div>
               </div>
             </div>
-
-            <div class="row">
-              <div class="col-xs-6">
-                <div class="project-tile">
-                  <h3>Magic 8 Ball</h3>
-                  <img src="https://farm5.staticflickr.com/4425/36746657985_e550616d6a_m.jpg" alt="panda" class="img-responsive" />
-                  <button class="btn btn-block btn-primary"><a href="https://jsbin.com/takamoguji/1/edit?output">See Project</a></button>
-                </div>
-              </div>
-
-              <div class="col-xs-6">
-                <div class="project-tile">
-                  <h3>Resume Website</h3>
-                  <img src="https://farm5.staticflickr.com/4425/36746657985_e550616d6a_m.jpg" alt="panda" class="img-responsive" />
-                  <button class="btn btn-block btn-primary"><a href="https://codepen.io/BritishPandaChick/full/dModJR/">See Project</a></button>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-xs-6">
-                <div class="project-tile">
-                  <h3>Weather App</h3>
-                  <img src="https://farm5.staticflickr.com/4425/36746657985_e550616d6a_m.jpg" alt="panda" class="img-responsive" />
-                  <button class="btn btn-block btn-primary"><a href="https://github.com/BritishPandaChick/weather-app-project">See Project</a></button>
-                </div>
-              </div>
-
-              <div class="col-xs-6">
-                <div class="project-tile">
-                  <h3>Election Map</h3>
-                  <img src="https://farm5.staticflickr.com/4425/36746657985_e550616d6a_m.jpg" alt="panda" class="img-responsive" />
-                  <button class="btn btn-block btn-primary"><a href="https://codepen.io/BritishPandaChick/full/wqEjda/">See Project</a></button>
-                </div>
-              </div>
-            </div>
-          </div>
         </section>
 
         <section id="blogs">
@@ -137,13 +103,12 @@
             </div>
           </div>
         </section>
+      </main>
+      <div class="row">
+        <footer>
+          <p>&copy; 2018 Sarah Bartley. All Rights Reserved</p>
+        </footer>
       </div>
-    </main>
-    <footer>
-      <div class="col-xs-12">
-        <p>&copy; 2018 Sarah Bartley. All Rights Reserved</p>
-      </div>
-    </footer>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </div>
   </body>
 </html>
