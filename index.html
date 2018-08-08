@@ -2,131 +2,148 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Personal Portfolio Page</title>
-    <link rel="stylesheet" href="css/style.css" media="screen and (min-width: 1025px)">
-    <link href="css/mobile.css" media="screen and (max-width: 640px)" rel="stylesheet">
-    <link href="css/responsive.css" media="screen and (min-width: 641px) and (max-width: 1024px)" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Special+Elite" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
   <body>
-    <div class="container">
-      <header id="home">
-        <div class="full-width">
-          <div class="half-width">
-            <h1>BritishPandaChick</h1>
-          </div>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#welcome-section">Welcome</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#blogs">Blogs</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-          <div class="half-width">
-            <nav>
-              <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </header>
-
-      <main>
-        <section id="about">
-          <div class="full-width">
-            <h2>About Sarah</h2>
-            <div class="half-width">
-              <p>Hello world! My name is Sarah. I am a fullstack web developer. I
-                create vibrant personalized websites and apps. For the past few months,
-                I made a career change from teaching to tech. I have been learning lots of great
-                digital skills from fantastic websites such as Skillcrush, FreeCodeCamp,
-                and Code School. When I am not coding, I write weekly content for the
-                BritishPandaChick blog and make crafts for my upcoming craft shop.</p>
-
-              <p><span>Skills:</span> HTML &amp; CSS, JavaScript, jQuery, Git, Ruby, Bootstrap, Teaching, Writing</p>
-
-              <ul>
-                <li><button><a href="http://www.levo.com/sarah-bartley" target="_blank">Levo</a></button></li>
-                <li><button><a href="https://www.powertofly.com/talents/63576" target="_blank">PowerToFly</a></button></li>
-                <li><button><a href="https://britishpandachick.blogspot.com" target="_blank">The Original BritishPandaChick</a></button></li>
-                <li><button><a href="https://needleworkkits.blogspot.com" target="_blank">Needlework Kits</a></button></li>
-              </ul>
-            </div>
-
-            <div class="half-width">
-              <img src="img/sarah-tech.png" alt="Sarah Bartley" class="img-responsive" />
+    <main>
+      <div class="container">
+        <section id="welcome-section">
+          <div class="col-xs-12">
+            <div class="row">
+              <h1><span>Hello World!</span> I'm Sarah Bartley!</h1>
+              <h3>Front-end Web Developer and Content Creator</h3>
             </div>
           </div>
         </section>
 
-        <section id="portfolio">
-          <div class="full-width">
-            <h2>Portfolio</h2>
-            <div class="third-width">
-              <img src="img/signuppage2.16.png" alt="Sign Up Page" class="img-responsive" />
-              <h3>Skillcrush E-mail Sign-Up Page</h3>
-              <ul>
-                <li>Summary</li>
-                <li>Accomplishment 1</li>
-                <li>Accomplishment 2</li>
-              </ul>
+        <section id="projects">
+          <div class="col-xs-12">
+            <h2>Projects</h2>
+            <div class="row">
+              <div class="col-xs-6">
+                <div class="project-tile">
+                  <h3>Portfolio Wireframe</h3>
+                  <img src="https://farm5.staticflickr.com/4425/36746657985_e550616d6a_m.jpg" alt="panda" class="img-responsive" />
+                  <button class="btn btn-block btn-primary"><a href="http://j63qg7.axshare.com/#p=home">See Project</a></button>
+                </div>
+              </div>
+
+              <div class="col-xs-6">
+                <div class="project-tile">
+                  <h3>Tribute Page</h3>
+                  <img src="https://farm5.staticflickr.com/4425/36746657985_e550616d6a_m.jpg" alt="panda" class="img-responsive" />
+                  <button class="btn btn-block btn-primary"><a href="https://codepen.io/BritishPandaChick/full/BKBLOv/">See Project</a></button>
+                </div>
+              </div>
             </div>
 
-            <div class="third-width">
-              <img src="img/tributepage2.16.png" alt="Tribute Page" class="img-responsive" />
-              <h3>Tribute Page</h3>
-              <ul>
-                <li>Summary</li>
-                <li>Accomplishment 1</li>
-                <li>Accomplishment 2</li>
-              </ul>
+            <div class="row">
+              <div class="col-xs-6">
+                <div class="project-tile">
+                  <h3>Magic 8 Ball</h3>
+                  <img src="https://farm5.staticflickr.com/4425/36746657985_e550616d6a_m.jpg" alt="panda" class="img-responsive" />
+                  <button class="btn btn-block btn-primary"><a href="https://jsbin.com/takamoguji/1/edit?output">See Project</a></button>
+                </div>
+              </div>
+
+              <div class="col-xs-6">
+                <div class="project-tile">
+                  <h3>Resume Website</h3>
+                  <img src="https://farm5.staticflickr.com/4425/36746657985_e550616d6a_m.jpg" alt="panda" class="img-responsive" />
+                  <button class="btn btn-block btn-primary"><a href="https://codepen.io/BritishPandaChick/full/dModJR/">See Project</a></button>
+                </div>
+              </div>
             </div>
 
-            <div class="third-width">
-              <img src="img/electionmap2.16.png" alt="Election Map" class="img-responsive" />
-              <h3>Election Map</h3>
-              <ul>
-                <li>Summary</li>
-                <li>Accomplishment 1</li>
-                <li>Accomplishment 2</li>
-              </ul>
+            <div class="row">
+              <div class="col-xs-6">
+                <div class="project-tile">
+                  <h3>Weather App</h3>
+                  <img src="https://farm5.staticflickr.com/4425/36746657985_e550616d6a_m.jpg" alt="panda" class="img-responsive" />
+                  <button class="btn btn-block btn-primary"><a href="https://github.com/BritishPandaChick/weather-app-project">See Project</a></button>
+                </div>
+              </div>
+
+              <div class="col-xs-6">
+                <div class="project-tile">
+                  <h3>Election Map</h3>
+                  <img src="https://farm5.staticflickr.com/4425/36746657985_e550616d6a_m.jpg" alt="panda" class="img-responsive" />
+                  <button class="btn btn-block btn-primary"><a href="https://codepen.io/BritishPandaChick/full/wqEjda/">See Project</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="blogs">
+          <div class="col-xs-12">
+            <h2>Blogs</h2>
+            <div class="col-xs-6">
+              <h3>The Original BritishPandaChick</h3>
+              <p>New posts are every Wednesday! The popular series My Coding
+                Journey features news posts bi-weekly and cover programming,
+                careers, and more.</p>
+              <button class="btn btn-block btn-info"><a href="http://britishpandachick.blogspot.com">Learn more</a></button>
+            </div>
+
+            <div class="col-xs-6">
+              <h3>Needlework Kits</h3>
+              <p>I regularly review needlecraft kits I've completed.</p>
+              <button class="btn btn-block btn-info"><a href="http://needleworkkits.blogspot.com">Learn more</a></button>
             </div>
           </div>
         </section>
 
         <section id="contact">
-          <div class="full-width">
+          <div class="col-xs-12">
             <h2>Contact</h2>
-            <div class="half-width">
-              <img src="img/phone.png" alt="Girl on iphone" class="img-responsive" />
-            </div>
-            <div class="half-width">
-              <p>For more info, send me a message at britishpandachick@gmail.com</p>
-            </div>
-          </div>
-        </section>
-
-        <footer>
-          <div class="full-width">
-            <div class="half-width">
-              <p>&copy; 2018 BritishPandaChick. All Rights Reserved</p>
+            <div class="col-xs-4">
+              <h3>Interested in working together?</h3>
+              <p>Sent me a message at britishpandachick@gmail.com!</p>
             </div>
 
-            <div class="half-width">
+            <div class="col-xs-4">
+              <h3>Learn more about me here!</h3>
+              <ul>
+                <li><a href="https://github.com/BritishPandaChick" id="profile-link" target="_blank">Github</a></li>
+                <li><a href="https://www.freecodecamp.org/britishpandachick" id="profile-link" target="_blank">FCC Profile</a></li>
+              </ul>
+            </div>
+
+            <div class="col-xs-4">
+              <h3>Connect with Me!</h3>
               <nav>
                 <ul>
-                  <li><i class="fab fa-github-square"></i></li>
-                  <li><i class="fab fa-facebook"></i></li>
-                  <li><i class="fab fa-twitter-square"></i></li>
-                  <li><i class="fab fa-linkedin"></i></li>
-                  <li><i class="fab fa-instagram"></i></li>
-                  <li><i class="fab fa-pinterest-square"></i></li>
+                  <li><a href="http://www.facebook.com/sarahbartleybpc"><i class="fab fa-facebook fa-2x"></i></a></li>
+                  <li><a href="https://twitter.com/TheOriginalBPC"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/sarahbartleybpc"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                  <li><a href="https://www.instagram.com/britishpandachick"><i class="fab fa-instagram fa-2x"></i></a></li>
+                  <li><a href="https://www.pinterest.com/theoriginalbpc"><i class="fab fa-pinterest-square fa-2x"></i></a></li>
                 </ul>
               </nav>
             </div>
           </div>
-        </footer>
+        </section>
       </div>
     </main>
+    <footer>
+      <div class="col-xs-12">
+        <p>&copy; 2018 Sarah Bartley. All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
