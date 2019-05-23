@@ -1,182 +1,180 @@
-/* Basic Styles */
-body {
+* {
   font-family: 'Montserrat', sans-serif;
 }
 
-img {
-  max-width: 100%;
-}
-
-/* Grid System */
-.full-width {
+main {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
   width: 100%;
-  margin: 0 auto;
 }
-
-.half-width {
-  width: 50%;
-  float: left;
-}
-
-.third-width {
-  width: 30%;
-  float: left;
-}
-
-/* Header */
-header {
+/* Navbar */
+#navbar {
+  overflow: hidden;
   background-color: firebrick;
-  height: 150px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  height: 30px;
 }
 
-header .full-width {
-  padding: 20px 0;
-}
-
-header h1 {
-  font-family: 'Special Elite', cursive;
-  font-size: 52px;
-  color: #FFF;
-}
-
-header nav {
-  float: right;
-}
-
-header nav ul li {
-  display: inline-block;
-  padding: 25px 0;
-}
-
-header nav ul li a {
-  text-decoration: none;
-  font-size: 20px;
-  padding-left: 15px;
-  color: #FFF;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-/* About */
-#about {
-  height: 650px;
-}
-
-#about .full-width {
-  padding: 20px 0;
-}
-
-#about h2 {
-  font-family: 'Special Elite', cursive;
-  font-size: 32px;
-  color: darkblue;
-}
-
-#about p {
-  font-size: 20px;
-  line-height: 42px;
-}
-
-#about span {
-  color: darkblue;
-  font-weight: bold;
-}
-
-#about ul {
+#navbar ul {
   float: left;
 }
 
-#about ul li {
+#navbar ul li {
   display: inline-block;
 }
 
-#about button {
-  background-color: darkblue;
-  padding: 15px;
-  font-size: 16px;
+#navbar ul li a {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  padding-left: 40px;
 }
 
-#about button a {
-  color: #FFF;
+/* Welcome Section */
+/** Referenced Jose Cardoso's My ePortfolio for help on selcome section */
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
-#about img {
-  height: 500px;
-  padding: 25px;
+#welcome-section section {
+  margin: auto;
+  padding: 80px 0;
 }
 
-/* Portfolio */
-#portfolio {
-  height: 500px;
+#welcome-section h1 {
+  font-size: 52px;
 }
 
-#portfolio .full-width {
-  padding: 20px 0;
+#welcome-section span {
+  font-family: 'Special Elite', cursive;
+  color: darkblue;
 }
 
-#portfolio .third-width {
-  padding-right: 25px;
+#welcome-section h3 {
+  font-size: 32px;
 }
 
-#portfolio h2 {
+/* Projects */
+#projects {
+  height: 450px;
+}
+
+#projects h2 {
   font-family: 'Special Elite', cursive;
   font-size: 42px;
   color: darkblue;
 }
 
-#portfolio img {
-  width: 400px;
+#projects .row {
+  padding: 20px 0;
 }
 
-#portfolio h3 {
+#projects h3 {
   font-size: 32px;
+  color: darkblue;
+  text-align: center;
+}
+
+#projects img {
+  padding-left: 230px;
+  padding-bottom: 15px;
+}
+
+#projects button a {
+  color: #fff;
+  font-size: 16px;
+}
+
+/* Blogs */
+#blogs {
+  height: 350px;
+  padding: 20px 0;
+}
+
+#blogs h2 {
+  font-size: 42px;
+  font-family: 'Special Elite', cursive;
+  color: darkblue;
+}
+
+#blogs h3 {
+  font-size: 32px;
+  color: darkblue;
+  text-align: center;
+}
+
+#blogs p {
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 15px;
+}
+
+#blogs button a {
+  color: #fff;
+  font-size: 16px;
 }
 
 /* Contact */
 #contact {
-  height: 550px;
-}
-
-#contact .full-width {
+  height: 350px;
   padding: 20px 0;
 }
 
 #contact h2 {
-  font-family: 'Special Elite', cursive;
   font-size: 42px;
+  font-family: 'Special Elite', cursive;
   color: darkblue;
 }
 
-#contact img {
-  height: 350px;
-  padding: 20px;
+#contact h3 {
+  font-size: 32px;
+  color: darkblue;
+  text-align: center;
 }
 
 #contact p {
   font-size: 20px;
-  line-height: 42px;
+}
+
+#contact a {
+  color: darkblue;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#contact nav ul li {
+  display: inline-block;
+}
+
+#contact nav ul li i {
+  text-decoration: none;
+  color: darkblue;
+  padding-left: 15px;
 }
 
 /* Footer */
 footer {
+  height: 40px;
   background-color: firebrick;
-  height: 70px;
 }
 
 footer p {
   font-size: 16px;
-  color: #FFF;
-}
-
-footer nav {
-  float: right;
-}
-
-footer nav ul li {
-  display: inline-block;
-}
-
-footer nav ul li i {
+  color: #fff;
   padding-left: 15px;
-  color: #FFF;
+}
+
+@media all and (max-width: 300px) {
+  #navbar a {
+    text-align: center;
+    width: 100%;
+  }
 }
