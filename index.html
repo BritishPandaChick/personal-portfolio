@@ -1,119 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Page</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Special+Elite" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  </head>
-  <body>
-    <div class="container-fluid">
-      <div class="row">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dorothy DeLong</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" media="screen and (max-width: 1024px)" type="text/css" href="css/main.css">
+  <link rel="stylesheet" media="screen and (min-width: 1025px)" type="text/css" href="css/responsive.css">
+
+  <!-- Font Awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <div class="full-width">
+      <div class="half-width">
+        <a href="#">Dorothy DeLong</a>
+      </div>
+
+      <div class="half-width">
         <nav id="navbar">
           <ul>
-            <li><a href="#welcome-section">Welcome</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#blogs">Blogs</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
-
-      <main>
-        <div id="welcome-section">
-          <section class="row">
-              <h1><span>Hello World!</span> I'm Sarah Bartley.</h1>
-              <h3>Front-end Web Developer and Content Creator</h3>
-          </section>
-        </div>
-
-        <div class="col-xs-12">
-          <section id="projects">
-            <h2>Projects</h2>
-            <div class="row">
-              <div class="col-xs-6">
-                <div class="project-tile">
-                  <h3>Portfolio Wireframe</h3>
-                  <img src="https://farm5.staticflickr.com/4425/36746657985_e550616d6a_m.jpg" alt="panda" class="img-responsive" />
-                  <button class="btn btn-block btn-primary"><a href="http://j63qg7.axshare.com/#p=home">See Project</a></button>
-                </div>
-              </div>
-
-              <div class="col-xs-6">
-                <div class="project-tile">
-                  <h3>Tribute Page</h3>
-                  <img src="https://farm5.staticflickr.com/4425/36746657985_e550616d6a_m.jpg" alt="panda" class="img-responsive" />
-                  <button class="btn btn-block btn-primary"><a href="https://codepen.io/BritishPandaChick/full/BKBLOv/">See Project</a></button>
-                </div>
-              </div>
-            </div>
-        </section>
-      </div>
-
-      <div class="col-xs-12">
-        <div class="row">
-          <section id="blogs">
-            <h2>Blogs</h2>
-            <div class="col-xs-6">
-              <h3>The Original BritishPandaChick</h3>
-              <p>New posts are every Wednesday! The popular series My Coding
-                Journey features news posts bi-weekly and cover programming,
-                careers, and more.</p>
-              <button class="btn btn-block btn-info"><a href="http://britishpandachick.blogspot.com">Learn more</a></button>
-            </div>
-
-            <div class="col-xs-6">
-              <h3>Needlework Kits</h3>
-              <p>I regularly review needlecraft kits I've completed.</p>
-              <button class="btn btn-block btn-info"><a href="http://needleworkkits.blogspot.com">Learn more</a></button>
-            </div>
-          </section>
-        </div>
-      </div>
-
-      <div class="col-xs-12">
-        <div class="row">
-          <section id="contact">
-            <h2>Contact</h2>
-            <div class="col-xs-4">
-              <h3>Interested in working together?</h3>
-              <p>Sent me a message at britishpandachick@gmail.com!</p>
-            </div>
-
-            <div class="col-xs-4">
-              <h3>Learn more about me here!</h3>
-              <ul>
-                <li><a href="https://github.com/BritishPandaChick" id="profile-link" target="_blank">Github</a></li>
-                <li><a href="https://www.freecodecamp.org/britishpandachick" id="profile-link" target="_blank">FCC Profile</a></li>
-              </ul>
-            </div>
-
-            <div class="col-xs-4">
-              <h3>Connect with Me!</h3>
-              <nav>
-                <ul>
-                  <li><a href="http://www.facebook.com/sarahbartleybpc"><i class="fab fa-facebook fa-2x"></i></a></li>
-                  <li><a href="https://twitter.com/TheOriginalBPC"><i class="fab fa-twitter-square fa-2x"></i></a></li>
-                  <li><a href="https://www.linkedin.com/in/sarahbartleybpc"><i class="fab fa-linkedin fa-2x"></i></a></li>
-                  <li><a href="https://www.instagram.com/britishpandachick"><i class="fab fa-instagram fa-2x"></i></a></li>
-                  <li><a href="https://www.pinterest.com/theoriginalbpc"><i class="fab fa-pinterest-square fa-2x"></i></a></li>
-                </ul>
-              </nav>
-            </div>
-          </section>
-        </div>
-      </div>
-    </main>
-  </div>  
-  <div class="col-xs-12">
-    <div class="row">
-      <footer>
-        <p>&copy; 2018 Sarah Bartley. All Rights Reserved</p>
-      </footer>
     </div>
-  </div>
-  </body>
-</html>
+  </header>
+  <main>
+    <section id="welcome-section">
+      <div class="full-width">
+        <h1>Dorothy DeLong</h1>
+        <h3>Photographer</h3>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="full-width">
+        <h2>About</h2>
+        <p>Mrs. Gardiner and Elizabeth talked of all that had occurred during their visit, as they returned, except what
+          had particularly interested them both. The look and behaviour of everybody they had seen were discussed,
+          except of the person who had mostly engaged their attention. They talked of his sister, his friends, his
+          house, his fruit--of everything but himself; yet Elizabeth was longing to know what Mrs. Gardiner thought of
+          him, and Mrs. Gardiner would have been highly gratified by her niece’s beginning the subject.</p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="full-width">
+        <div class="third-width">
+          <div class="project-tile">
+            <a href="#">Link goes here</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="full-width">
+        <h2>Connect with Me</h2>
+        <nav>
+          <ul>
+            <li><a id="profile-link"><i class="fa-brands fa-github"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="full-width">
+      <p>&copy; 2018 - 2022, Sarah Bartley | All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <!-- freecodecamp testing -->
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>

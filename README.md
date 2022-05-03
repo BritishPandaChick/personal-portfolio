@@ -1,8 +1,17 @@
-# BritishPandaChick Personal Portfolio
-Free Code Camp personal portfolio project. Made for Free Code Camp Basic Front End Development Projects. Uses HTML, CSS, and Bootstrap.
+# Dorothy DeLong Personal Portfolio
+freecodecamp Responsive web Design project. Personal Portfolio Webpage.
+
+## Dependencies 
+* HTML
+* CSS
 
 ## Instructions
 Clone or download zip file. Open index.html file in your browser.
 
 ## Contributing
-Please contact me if you would like to contribute to this application.
+I will not be accepting pull requests.
+
+## Acknowledgements 
+* freecodecamp
+* Skillcrush 
+
