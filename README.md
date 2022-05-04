@@ -14,4 +14,6 @@ I will not be accepting pull requests.
 ## Acknowledgements 
 * freecodecamp
 * Skillcrush 
-
+* Google Fonts 
+* W3Schools
+* Font Awesome

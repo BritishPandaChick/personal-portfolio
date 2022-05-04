@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
   <meta charset="utf-8">
@@ -11,28 +11,24 @@
   <link rel="stylesheet" media="screen and (min-width: 1025px)" type="text/css" href="css/responsive.css">
 
   <!-- Font Awesome-->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/font-awesome/css/all.min.css">
+
+  <!-- Google Fonts -->
 </head>
 
 <body>
   <header>
     <div class="full-width">
-      <div class="half-width">
+      <nav id="navbar">
+        <img src="assets/img/Logo.png" alt="logo">
         <a href="#">Dorothy DeLong</a>
-      </div>
-
-      <div class="half-width">
-        <nav id="navbar">
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
   </header>
+
   <main>
     <section id="welcome-section">
       <div class="full-width">
@@ -41,14 +37,23 @@
       </div>
     </section>
 
-    <section id="about">
+    <section id="mission-quote">
       <div class="full-width">
-        <h2>About</h2>
-        <p>Mrs. Gardiner and Elizabeth talked of all that had occurred during their visit, as they returned, except what
-          had particularly interested them both. The look and behaviour of everybody they had seen were discussed,
-          except of the person who had mostly engaged their attention. They talked of his sister, his friends, his
-          house, his fruit--of everything but himself; yet Elizabeth was longing to know what Mrs. Gardiner thought of
-          him, and Mrs. Gardiner would have been highly gratified by her niece’s beginning the subject.</p>
+        <blockquote>“I capture the realness behind feminism, no filter.”</blockquote>
+      </div>
+    </section>
+
+    <section id="artist-statement">
+      <div class="full-width">
+        <div class="half-width">
+          <img src="assets/img/Dorothy-Headshot.jpg" alt="Dorothy DeLong" />
+        </div>
+
+        <div class="half-width">
+          <p>My work focuses on candid photographs taken on location at events for women’s rights, places where women
+            are owning their space, and fleeting encounters on the streets. My work engulfs the viewer in real moments
+            of strength, vulnerability, and solidarity</p>
+        </div>
       </div>
     </section>
 
@@ -56,6 +61,30 @@
       <div class="full-width">
         <div class="third-width">
           <div class="project-tile">
+            <img src="assets/img/abuse-art-awareness-622135.jpg" alt="street art on a wall" />
+            <h3>Street Art</h3>
+            <caption>Montreal, Canada. September 1, 2018</caption>
+            <a href="#">Link goes here</a>
+          </div>
+
+          <div class="project-tile">
+            <img src="assets/img/father.jpg" alt="father with daughter on his shoulders" />
+            <h3>Father</h3>
+            <caption>Denver, Colorado,. June 25, 2018</caption>
+            <a href="#">Link goes here</a>
+          </div>
+
+          <div class="project-tile">
+            <img src="assets/img/smile.jpg" alt="little girl smiling inside a house" />
+            <h3>Smile</h3>
+            <caption>San Francisco, California. August 4, 2017</caption>
+            <a href="#">Link goes here</a>
+          </div>
+
+          <div class="project-tile">
+            <img src="assets/img/flag.jpg" alt="woman wrapping a rainbow flag around her in a crowd" />
+            <h3>Flag</h3>
+            <caption>LGBTQIA March in Washington DC. November 12, 2017</caption>
             <a href="#">Link goes here</a>
           </div>
         </div>
@@ -67,7 +96,11 @@
         <h2>Connect with Me</h2>
         <nav>
           <ul>
-            <li><a id="profile-link"><i class="fa-brands fa-github"></i></a></li>
+            <li><a id="profile-link" href="#" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li><a id="profile-link" href="#" target="_blank"><i class="fa-solid fa-folder"></i></a></li>
+            <li><a id="profile-link" href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a id="profile-link" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a id="profile-link" href="#" target="_blank"><i class="fa-brands fa-pinterest"></i></a></li>
           </ul>
         </nav>
       </div>
