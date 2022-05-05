@@ -1,0 +1,51 @@
+/* === Base Styles ===*/
+body {
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    color: #342A21;
+}
+
+/* === Grid system ===*/
+.full-width {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* == Header ==*/
+header {
+    border: 5px solid #DA667B;
+    padding: 40px 0;
+
+    #navbar {
+        width: 100%;
+
+        #logo {
+            height: 380px;
+            float: left;
+            padding: 15px 35px;
+            margin-bottom: 20px;
+        }
+
+        .link-items {
+            a {
+                display: block;
+                text-align: center;
+                padding: 12px;
+                text-decoration: none;
+                font-size: 20px;
+                color: #71816D;
+            }
+
+            a:hover {
+                color: #C9B79C;
+            }
+        }
+    }
+}
+
+/*== Welcome Section ==*/
+#welcome-section {
+    width: 100%;
+    border: 2px solid red;
+    padding: 80px 0;
+}
