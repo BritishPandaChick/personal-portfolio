@@ -1,8 +1,23 @@
+/*== = Sass Variables ===*/
+$main-font: 'Lora',
+serif;
+$headline-font: 'Comfortaa',
+cursive;
+$black: #342A21;
+$pink: #DA667B;
+$green: #71816D;
+$hover-color: #F1E0C5;
+$light-brown: #C9B79C;
+$white: #fff;
+
 /* === Base Styles ===*/
 body {
     font-size: 20px;
-    font-family: 'Lora', serif;
-    color: #342A21;
+    font-family: $main-font;
+    color: $black;
+    display: flex;
+    flex-direction: flex-column;
+    flex-wrap: wrap;
 }
 
 /* === Grid system ===*/
@@ -13,7 +28,7 @@ body {
 
 /* == Header ==*/
 header {
-    border: 5px solid #DA667B;
+    border: 5px solid $light-brown;
     padding: 40px 0;
 
     #navbar {
@@ -33,11 +48,11 @@ header {
                 padding: 12px;
                 text-decoration: none;
                 font-size: 20px;
-                color: #71816D;
+                color: $green;
             }
 
             a:hover {
-                color: #C9B79C;
+                color: $hover-color;
             }
         }
     }
@@ -45,7 +60,80 @@ header {
 
 /*== Welcome Section ==*/
 #welcome-section {
-    width: 100%;
-    border: 2px solid red;
+    background-color: $pink;
     padding: 80px 0;
+
+    h1 {
+        font-size: 35px;
+        font-family: $headline-font;
+        text-align: center;
+        color: $green;
+    }
+
+    h3 {
+        font-size: 25px;
+        font-family: $headline-font;
+        text-align: center;
+    }
 }
+
+/*== Mission quote ==*/
+#mission-quote {
+    padding: 80px 0;
+    border: 5px solid $light-brown;
+
+    blockquote {
+        font-size: 25px;
+        line-height: 32px;
+    }
+}
+
+/*== Artist Statement ==*/
+#artist-statement {
+    padding: 40px;
+
+    img {
+        width: 100%;
+    }
+
+    p {
+        line-height: 32px;
+    }
+}
+
+/* == Projects ==*/
+#projects {
+    padding: 40px;
+    background-color: $pink;
+
+    img {
+        width: 100%;
+    }
+
+    h3 {
+        text-align: center;
+        font-family: $headline-font;
+        font-size: 25px;
+        color: $white;
+    }
+
+    .pic-info {
+        text-align: center;
+        margin-bottom: 40px;
+
+        caption {
+            font-size: 18px;
+        }
+
+        a {
+            color: $green;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: $hover-color;
+        }
+    }
+}
+
+/*== Contact ==*/
