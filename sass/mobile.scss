@@ -1,11 +1,11 @@
 /*== = Sass Variables ===*/
 $main-font: 'Lora',
-serif;
+    serif;
 $headline-font: 'Comfortaa',
-cursive;
+    cursive;
 $black: #342A21;
 $pink: #DA667B;
-$green: #71816D;
+$background-color: #71816D;
 $hover-color: #F1E0C5;
 $light-brown: #C9B79C;
 $white: #fff;
@@ -28,15 +28,15 @@ body {
 
 /* == Header ==*/
 header {
-    border: 5px solid $light-brown;
     padding: 40px 0;
+    width: 100%;
+    background-color: $background-color;
 
     #navbar {
         width: 100%;
 
         #logo {
             height: 380px;
-            float: left;
             padding: 15px 35px;
             margin-bottom: 20px;
         }
@@ -48,7 +48,7 @@ header {
                 padding: 12px;
                 text-decoration: none;
                 font-size: 20px;
-                color: $green;
+                color: $white;
             }
 
             a:hover {
@@ -60,31 +60,20 @@ header {
 
 /*== Welcome Section ==*/
 #welcome-section {
-    background-color: $pink;
+    border: 5px solid $light-brown;
     padding: 80px 0;
 
     h1 {
         font-size: 35px;
         font-family: $headline-font;
         text-align: center;
-        color: $green;
+        color: $background-color;
     }
 
     h3 {
         font-size: 25px;
         font-family: $headline-font;
         text-align: center;
-    }
-}
-
-/*== Mission quote ==*/
-#mission-quote {
-    padding: 80px 0;
-    border: 5px solid $light-brown;
-
-    blockquote {
-        font-size: 25px;
-        line-height: 32px;
     }
 }
 
@@ -101,10 +90,20 @@ header {
     }
 }
 
+/*== Mission quote ==*/
+#mission-quote {
+    padding: 15px;
+    background-color: $pink;
+
+    blockquote {
+        font-size: 25px;
+        color: $white;
+    }
+}
+
 /* == Projects ==*/
 #projects {
-    padding: 40px;
-    background-color: $pink;
+    padding: 50px;
 
     img {
         width: 100%;
@@ -114,7 +113,7 @@ header {
         text-align: center;
         font-family: $headline-font;
         font-size: 25px;
-        color: $white;
+        color: $background-color;
     }
 
     .pic-info {
@@ -123,10 +122,11 @@ header {
 
         caption {
             font-size: 18px;
+            word-spacing: 15px;
         }
 
         a {
-            color: $green;
+            color: $pink;
             text-decoration: none;
         }
 
@@ -137,3 +137,42 @@ header {
 }
 
 /*== Contact ==*/
+#contact {
+    border: 5px solid $light-brown;
+    padding: 15px;
+
+    h2 {
+        text-align: center;
+        font-family: $headline-font;
+        font-size: 30px;
+        color: $background-color;
+    }
+
+    ul {
+        li {
+            list-style-type: none;
+            display: inline-block;
+            padding-left: 15px;
+
+            a {
+                color: $pink;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: $hover-color;
+            }
+        }
+    }
+}
+
+/*== Footer ==*/
+footer {
+    background-color: $pink;
+    padding: 15px 0;
+
+    p {
+        text-align: center;
+        font-size: 18px;
+    }
+}
