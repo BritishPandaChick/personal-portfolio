@@ -92,7 +92,7 @@ header {
 
 /*== Mission quote ==*/
 #mission-quote {
-    padding: 15px;
+    padding: 40px;
     background-color: $pink;
 
     blockquote {
@@ -168,11 +168,12 @@ header {
 
 /*== Footer ==*/
 footer {
-    background-color: $pink;
+    background-color: $background-color;
     padding: 15px 0;
 
     p {
         text-align: center;
         font-size: 18px;
+        color: $white;
     }
 }

@@ -1,3 +1,129 @@
+/*== = Sass Variables ===*/
+/* === Base Styles ===*/
+body {
+  font-size: 20px;
+  font-family: "Lora", serif;
+  color: #342A21;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
 
+/* === Grid system ===*/
+.full-width {
+  width: 100%;
+  margin: 0 auto; }
+
+.half-width {
+  width: 50%;
+  float: left; }
+
+/* == Header ==*/
+header {
+  width: 100%;
+  background-color: #71816D; }
+  header #navbar {
+    width: 100%; }
+    header #navbar .logo {
+      width: 20%; }
+    header #navbar #logo {
+      height: 100px;
+      padding: 15px 35px;
+      margin-bottom: 20px; }
+    header #navbar .link-items {
+      width: 70%;
+      padding: 60px 35px; }
+      header #navbar .link-items a {
+        display: inline-block;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #fff; }
+      header #navbar .link-items a:hover {
+        color: #F1E0C5; }
+
+/*== Welcome Section ==*/
+#welcome-section {
+  border: 5px solid #C9B79C;
+  padding: 80px 0; }
+  #welcome-section h1 {
+    font-size: 35px;
+    font-family: "Comfortaa", cursive;
+    text-align: center;
+    color: #71816D; }
+  #welcome-section h3 {
+    font-size: 25px;
+    font-family: "Comfortaa", cursive;
+    text-align: center; }
+
+/*== Artist Statement ==*/
+#artist-statement {
+  padding: 80px 20px;
+  height: 320px;
+  border: 2px solid red; }
+  #artist-statement img {
+    width: 100%;
+    margin-top: 20px; }
+  #artist-statement p {
+    line-height: 32px;
+    margin-left: 20px; }
+
+/*== Mission quote ==*/
+#mission-quote {
+  padding: 40px;
+  background-color: #DA667B; }
+  #mission-quote blockquote {
+    font-size: 25px;
+    color: #fff; }
+
+/* == Projects ==*/
+#projects {
+  padding: 50px; }
+  #projects img {
+    width: 100%; }
+  #projects h3 {
+    text-align: center;
+    font-family: "Comfortaa", cursive;
+    font-size: 25px;
+    color: #71816D; }
+  #projects .pic-info {
+    text-align: center;
+    margin-bottom: 40px; }
+    #projects .pic-info caption {
+      font-size: 18px;
+      word-spacing: 15px; }
+    #projects .pic-info a {
+      color: #DA667B;
+      text-decoration: none; }
+    #projects .pic-info a:hover {
+      color: #F1E0C5; }
+
+/*== Contact ==*/
+#contact {
+  border: 5px solid #C9B79C;
+  padding: 15px; }
+  #contact h2 {
+    text-align: center;
+    font-family: "Comfortaa", cursive;
+    font-size: 30px;
+    color: #71816D; }
+  #contact ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 15px; }
+    #contact ul li a {
+      color: #DA667B;
+      text-decoration: none; }
+    #contact ul li a:hover {
+      color: #F1E0C5; }
+
+/*== Footer ==*/
+footer {
+  background-color: #71816D;
+  padding: 15px 0; }
+  footer p {
+    text-align: center;
+    font-size: 18px;
+    color: #fff; }
 
 /*# sourceMappingURL=responsive.css.map */

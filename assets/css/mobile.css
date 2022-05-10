@@ -58,7 +58,7 @@ header {
 
 /*== Mission quote ==*/
 #mission-quote {
-  padding: 15px;
+  padding: 40px;
   background-color: #DA667B; }
   #mission-quote blockquote {
     font-size: 25px;
@@ -107,10 +107,11 @@ header {
 
 /*== Footer ==*/
 footer {
-  background-color: #DA667B;
+  background-color: #71816D;
   padding: 15px 0; }
   footer p {
     text-align: center;
-    font-size: 18px; }
+    font-size: 18px;
+    color: #fff; }
 
 /*# sourceMappingURL=mobile.css.map */
