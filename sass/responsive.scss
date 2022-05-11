@@ -1,4 +1,4 @@
-/*== = Sass Variables ===*/
+/*=== Sass Variables ===*/
 $main-font: 'Lora',
     serif;
 $headline-font: 'Comfortaa',
@@ -41,6 +41,7 @@ header {
 
         .logo {
             width: 20%;
+            padding-top: 15px;
         }
 
         #logo {
@@ -90,13 +91,15 @@ header {
 
 /*== Artist Statement ==*/
 #artist-statement {
-    padding: 80px 20px;
-    height: 320px;
-    border: 2px solid red;
+    padding: 40px;
+    height: 600px;
+
+    .half-width {
+        width: 100%;
+    }
 
     img {
         width: 100%;
-        margin-top: 20px;
     }
 
     p {
@@ -107,7 +110,7 @@ header {
 
 /*== Mission quote ==*/
 #mission-quote {
-    padding: 40px;
+    padding: 80px;
     background-color: $pink;
 
     blockquote {
@@ -118,7 +121,7 @@ header {
 
 /* == Projects ==*/
 #projects {
-    padding: 50px;
+    padding: 80px 40px;
 
     img {
         width: 100%;
@@ -154,7 +157,6 @@ header {
 /*== Contact ==*/
 #contact {
     border: 5px solid $light-brown;
-    padding: 15px;
 
     h2 {
         text-align: center;
@@ -164,6 +166,8 @@ header {
     }
 
     ul {
+        padding-left: 300px;
+
         li {
             list-style-type: none;
             display: inline-block;
@@ -184,7 +188,7 @@ header {
 /*== Footer ==*/
 footer {
     background-color: $background-color;
-    padding: 15px 0;
+    width: 100%;
 
     p {
         text-align: center;

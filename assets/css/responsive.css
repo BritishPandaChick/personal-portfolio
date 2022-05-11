@@ -1,4 +1,4 @@
-/*== = Sass Variables ===*/
+/*=== Sass Variables ===*/
 /* === Base Styles ===*/
 body {
   font-size: 20px;
@@ -24,7 +24,8 @@ header {
   header #navbar {
     width: 100%; }
     header #navbar .logo {
-      width: 20%; }
+      width: 20%;
+      padding-top: 15px; }
     header #navbar #logo {
       height: 100px;
       padding: 15px 35px;
@@ -58,19 +59,19 @@ header {
 
 /*== Artist Statement ==*/
 #artist-statement {
-  padding: 80px 20px;
-  height: 320px;
-  border: 2px solid red; }
+  padding: 40px;
+  height: 600px; }
+  #artist-statement .half-width {
+    width: 100%; }
   #artist-statement img {
-    width: 100%;
-    margin-top: 20px; }
+    width: 100%; }
   #artist-statement p {
     line-height: 32px;
     margin-left: 20px; }
 
 /*== Mission quote ==*/
 #mission-quote {
-  padding: 40px;
+  padding: 80px;
   background-color: #DA667B; }
   #mission-quote blockquote {
     font-size: 25px;
@@ -78,7 +79,7 @@ header {
 
 /* == Projects ==*/
 #projects {
-  padding: 50px; }
+  padding: 80px 40px; }
   #projects img {
     width: 100%; }
   #projects h3 {
@@ -100,27 +101,28 @@ header {
 
 /*== Contact ==*/
 #contact {
-  border: 5px solid #C9B79C;
-  padding: 15px; }
+  border: 5px solid #C9B79C; }
   #contact h2 {
     text-align: center;
     font-family: "Comfortaa", cursive;
     font-size: 30px;
     color: #71816D; }
-  #contact ul li {
-    list-style-type: none;
-    display: inline-block;
-    padding-left: 15px; }
-    #contact ul li a {
-      color: #DA667B;
-      text-decoration: none; }
-    #contact ul li a:hover {
-      color: #F1E0C5; }
+  #contact ul {
+    padding-left: 300px; }
+    #contact ul li {
+      list-style-type: none;
+      display: inline-block;
+      padding-left: 15px; }
+      #contact ul li a {
+        color: #DA667B;
+        text-decoration: none; }
+      #contact ul li a:hover {
+        color: #F1E0C5; }
 
 /*== Footer ==*/
 footer {
   background-color: #71816D;
-  padding: 15px 0; }
+  width: 100%; }
   footer p {
     text-align: center;
     font-size: 18px;
