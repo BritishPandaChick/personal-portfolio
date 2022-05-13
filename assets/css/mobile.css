@@ -95,15 +95,20 @@ header {
     font-family: "Comfortaa", cursive;
     font-size: 30px;
     color: #71816D; }
-  #contact ul li {
-    list-style-type: none;
-    display: inline-block;
-    padding-left: 15px; }
-    #contact ul li a {
-      color: #DA667B;
-      text-decoration: none; }
-    #contact ul li a:hover {
-      color: #F1E0C5; }
+  #contact p {
+    font-size: 18px;
+    text-align: center; }
+  #contact ul {
+    padding-left: 55px; }
+    #contact ul li {
+      list-style-type: none;
+      display: inline-block;
+      padding-left: 15px; }
+      #contact ul li a {
+        color: #DA667B;
+        text-decoration: none; }
+      #contact ul li a:hover {
+        color: #F1E0C5; }
 
 /*== Footer ==*/
 footer {

@@ -148,7 +148,14 @@ header {
         color: $background-color;
     }
 
+    p {
+        font-size: 18px;
+        text-align: center;
+    }
+
     ul {
+        padding-left: 55px;
+
         li {
             list-style-type: none;
             display: inline-block;

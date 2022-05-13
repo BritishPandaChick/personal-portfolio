@@ -77,14 +77,13 @@ header {
 
 /* == Projects ==*/
 #projects {
-  border: 2px solid red;
-  padding: 80px 40px;
-  height: 870px; }
+  padding: 80px;
+  height: 900px; }
   #projects .project-tile {
-    border: 2px dotted blue;
+    margin-right: 25px;
+    margin-bottom: 20px;
     width: 30%;
-    float: left;
-    margin-right: 35px; }
+    display: inline-block; }
     #projects .project-tile img {
       width: 100%; }
     #projects .project-tile h3 {
@@ -113,7 +112,7 @@ header {
     font-size: 30px;
     color: #71816D; }
   #contact ul {
-    padding-left: 300px; }
+    padding-left: 550px; }
     #contact ul li {
       list-style-type: none;
       display: inline-block;
