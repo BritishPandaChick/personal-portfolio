@@ -126,12 +126,47 @@ header {
 
 /* == Projects ==*/
 #projects {
-    padding: 50px;
-    border: 2px solid red;
-    height: 600px;
+    padding: 20px;
+    height: 450px;
 
-    img {
-        width: 100%;
+    .third-width {
+        margin-right: 20px;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-family: $headline-font;
+        color: $background-color;
+        text-align: center;
+    }
+
+    .project-tile {
+        text-align: center;
+
+        img {
+            width: 100%;
+            padding: 20px 0;
+        }
+
+        h3 {
+            font-family: $headline-font;
+            font-size: 25px;
+            color: $background-color;
+        }
+
+        caption {
+            font-size: 18px;
+            word-spacing: 15px;
+        }
+
+        a {
+            color: $pink;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: $hover-color;
+        }
     }
 }
 
@@ -139,10 +174,7 @@ header {
 #contact {
     border: 5px solid $light-brown;
     padding: 15px;
-
-    .half-width {
-        width: 100%;
-    }
+    height: 150px;
 
     h2 {
         text-align: center;

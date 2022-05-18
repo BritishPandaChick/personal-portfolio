@@ -66,25 +66,29 @@ header {
 
 /* == Projects ==*/
 #projects {
-  padding: 50px; }
-  #projects img {
-    width: 100%; }
-  #projects h3 {
-    text-align: center;
+  padding: 20px; }
+  #projects h2 {
+    font-size: 30px;
     font-family: "Comfortaa", cursive;
-    font-size: 25px;
-    color: #71816D; }
-  #projects .pic-info {
-    text-align: center;
-    margin-bottom: 40px; }
-    #projects .pic-info caption {
-      font-size: 18px;
-      word-spacing: 15px; }
-    #projects .pic-info a {
-      color: #DA667B;
-      text-decoration: none; }
-    #projects .pic-info a:hover {
-      color: #F1E0C5; }
+    color: #71816D;
+    text-align: center; }
+  #projects .project-tile {
+    text-align: center; }
+    #projects .project-tile img {
+      width: 100%; }
+    #projects .project-tile h3 {
+      font-family: "Comfortaa", cursive;
+      font-size: 25px; }
+    #projects .project-tile .pic-info {
+      margin-bottom: 40px; }
+      #projects .project-tile .pic-info caption {
+        font-size: 18px;
+        word-spacing: 15px; }
+      #projects .project-tile .pic-info a {
+        color: #DA667B;
+        text-decoration: none; }
+      #projects .project-tile .pic-info a:hover {
+        color: #F1E0C5; }
 
 /*== Contact ==*/
 #contact {

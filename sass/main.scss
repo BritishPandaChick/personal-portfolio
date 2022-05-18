@@ -31,6 +31,11 @@ body {
     float: left;
 }
 
+.third-width {
+    width: 30%;
+    float: left;
+}
+
 /* == Header ==*/
 header {
     width: 100%;
@@ -56,7 +61,8 @@ header {
 
             a {
                 display: inline-block;
-                padding: 15px;
+                text-align: center;
+                padding: 12px;
                 text-decoration: none;
                 font-size: 20px;
                 color: $white;
@@ -117,43 +123,39 @@ header {
 
 /* == Projects ==*/
 #projects {
-    padding: 80px;
-    height: 900px;
+    padding: 50px;
+    border: 2px solid red;
+    height: 500px;
+
+    .third-width {
+        margin-right: 20px;
+    }
 
     .project-tile {
-        margin-right: 25px;
-        margin-bottom: 20px;
-        width: 30%;
-        display: inline-block;
+        text-align: center;
 
         img {
             width: 100%;
         }
 
         h3 {
-            text-align: center;
             font-family: $headline-font;
             font-size: 25px;
             color: $background-color;
         }
 
-        .pic-info {
-            text-align: center;
-            margin-bottom: 40px;
+        caption {
+            font-size: 18px;
+            word-spacing: 15px;
+        }
 
-            caption {
-                font-size: 18px;
-                word-spacing: 15px;
-            }
+        a {
+            color: $pink;
+            text-decoration: none;
+        }
 
-            a {
-                color: $pink;
-                text-decoration: none;
-            }
-
-            a:hover {
-                color: $hover-color;
-            }
+        a:hover {
+            color: $hover-color;
         }
     }
 }
