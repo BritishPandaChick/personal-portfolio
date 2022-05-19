@@ -40,6 +40,10 @@ body {
 header {
     width: 100%;
     background-color: $background-color;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    top: 0;
 
     #navbar {
         width: 100%;
@@ -79,6 +83,11 @@ header {
 #welcome-section {
     border: 5px solid $light-brown;
     padding: 80px 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     h1 {
         font-size: 45px;
@@ -124,11 +133,17 @@ header {
 /* == Projects ==*/
 #projects {
     padding: 50px;
-    border: 2px solid red;
     height: 500px;
 
     .third-width {
-        margin-right: 20px;
+        margin-right: 40px;
+    }
+
+    h2 {
+        font-size: 35px;
+        font-family: $headline-font;
+        color: $background-color;
+        text-align: center;
     }
 
     .project-tile {
@@ -141,7 +156,6 @@ header {
         h3 {
             font-family: $headline-font;
             font-size: 25px;
-            color: $background-color;
         }
 
         caption {
@@ -163,6 +177,8 @@ header {
 /*== Contact ==*/
 #contact {
     border: 5px solid $light-brown;
+    height: 150px;
+    padding: 15px;
 
     h2 {
         text-align: center;
@@ -171,8 +187,13 @@ header {
         color: $background-color;
     }
 
+    p {
+        font-size: 20px;
+        text-align: center;
+    }
+
     ul {
-        padding-left: 550px;
+        padding-left: 55px;
 
         li {
             list-style-type: none;
