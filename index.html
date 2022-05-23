@@ -28,18 +28,19 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+  <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
     <div class="container-fluid">
-      <img src="assets/img/Logo.png" alt="logo" id="logo">
+      <img src="assets/img/Logo.png" alt="logo" id="logo" class="navbar-brand">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#welcome-section">Dorothy DeLong</a>
+            <a class="nav-link" href="#welcome-section">Dorothy DeLong</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#artist-statement">About</a>
@@ -56,10 +57,10 @@
   </nav>
 
   <main>
-    <div class="container">
+    <div class="container-fluid">
       <section id="welcome-section">
         <h1 class="text-center">Dorothy DeLong</h1>
-        <h3 class="text-center">Photographer</h3>
+        <h2 class="text-center">Photographer</h2>
       </section>
 
       <section id="artist-statement">
@@ -80,24 +81,18 @@
         </div>
       </section>
 
-      <section id="mission-quote">
-        <div class="container">
-          <blockquote class="text-center">“I capture the realness behind feminism, no filter.”</blockquote>
-        </div>
-      </section>
-
       <section id="projects">
         <div class="container">
           <h2 class="text-center">Projects</h2>
           <div class="row">
             <div class="project-tile col-sm-12 col-md-12 col-lg-4">
-              <img src="assets/img/abuse-art-awareness-622135.jpg" alt="street art on a wall" class="img-thumbnail" />
+              <figure>
+                <img src="assets/img/abuse-art-awareness-622135.jpg" alt="street art on a wall" class="img-thumbnail" />
+                <figcaption>Montreal, Canada. September 1, 2018</figcaption>
+              </figure>
+
               <h3 class="text-center">Street Art</h3>
-              <div class="pic-info">
-                <caption>Montreal, Canada. September 1, 2018</caption>
-                <br>
-                <a href="#">Find Gallery</a>
-              </div>
+              <a href="#">Find Gallery</a>
             </div>
 
             <div class="project-tile col-sm-12 col-md-12 col-lg-4">
@@ -150,6 +145,12 @@
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section id="mission-quote">
+        <div class="container">
+          <blockquote class="text-center">“I capture the realness behind feminism, no filter.”</blockquote>
         </div>
       </section>
 

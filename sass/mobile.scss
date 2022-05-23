@@ -15,22 +15,76 @@ body {
     font-size: 20px;
     font-family: $main-font;
     color: $black;
-    display: flex;
-    flex-direction: flex-column;
-    flex-wrap: wrap;
-}
-
-/*== Grid System ==*/
-.full-width {
     width: 100%;
     margin: 0 auto;
 }
 
-/*== Navbar ==*/
+/*=== Navbar ===*/
 #navbar {
-    border: 2px solid red;
+    background-color: $background-color;
 
     #logo {
-        width: 100%;
+        width: 10%;
     }
+
+    #navbarSupportedContent {
+        color: $white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+/*=== Welcome Section ===*/
+#welcome-section {
+    padding: 80px 0;
+    background-color: $pink;
+
+    h1 {
+        font-size: 35px;
+        font-family: $headline-font;
+        color: $white;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-family: $headline-font;
+        color: $white;
+    }
+}
+
+/*=== Artist Statement ===*/
+#artist-statement {
+    border: 5px solid $light-brown;
+    height: 470px;
+    padding: 20px 0;
+
+    p {
+        line-height: 32px;
+        padding: 15px 0;
+    }
+}
+
+/*=== Projects ===*/
+#projects {
+    border: 2px solid red;
+    padding: 40px 0;
+
+    h2 {
+        font-family: $headline-font;
+        font-size: 30px;
+    }
+
+    #project-tile {
+        h3 {
+            font-family: $headline-font;
+            font-size: 25px;
+        }
+
+        caption {
+            font-size: 18px;
+            padding-left: 15px;
+        }
+    }
+
+
 }
