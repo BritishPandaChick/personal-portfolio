@@ -33,24 +33,51 @@ body {
 /*=== Artist Statement ===*/
 #artist-statement {
   border: 5px solid #C9B79C;
-  height: 470px;
+  height: 550px;
   padding: 20px 0; }
   #artist-statement p {
     line-height: 32px;
-    padding: 15px 0; }
+    padding: 20px; }
 
 /*=== Projects ===*/
 #projects {
-  border: 2px solid red;
   padding: 40px 0; }
   #projects h2 {
     font-family: "Comfortaa", cursive;
-    font-size: 30px; }
-  #projects #project-tile h3 {
+    font-size: 30px;
+    padding: 20px 0; }
+  #projects .project-tile {
+    padding: 15px 0; }
+    #projects .project-tile h3 {
+      font-family: "Comfortaa", cursive;
+      font-size: 25px; }
+    #projects .project-tile a {
+      color: #DA667B;
+      font-size: 20px;
+      text-decoration: none;
+      margin-left: 120px; }
+    #projects .project-tile a:hover {
+      color: #F1E0C5; }
+
+/*=== Mission Quote ===*/
+#mission-quote {
+  background-color: #DA667B;
+  padding: 80px 0; }
+  #mission-quote blockquote {
+    font-size: 30px;
+    color: #fff;
+    font-family: "Comfortaa", cursive; }
+
+/*=== Contact ===*/
+#contact {
+  border: 5px solid #C9B79C;
+  padding: 20px 0; }
+  #contact h2 {
+    font-size: 30px;
     font-family: "Comfortaa", cursive;
-    font-size: 25px; }
-  #projects #project-tile caption {
+    color: #71816D; }
+  #contact p {
     font-size: 18px;
-    padding-left: 15px; }
+    text-align: center; }
 
 /*# sourceMappingURL=mobile.css.map */
