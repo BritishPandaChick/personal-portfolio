@@ -21,3 +21,4 @@ I will not be accepting pull requests.
 * Coolors
 * Jose Cardoso
 * Bootstrap
+* CSS Tricks
