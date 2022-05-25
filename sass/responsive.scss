@@ -15,151 +15,76 @@ body {
     font-size: 20px;
     font-family: $main-font;
     color: $black;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-/* === Grid system ===*/
-.full-width {
     width: 100%;
     margin: 0 auto;
 }
 
-.half-width {
-    width: 50%;
-    float: left;
-}
-
-.third-width {
-    width: 30%;
-    float: left;
-}
-
-/* == Header ==*/
-header {
-    width: 100%;
+/*=== Navbar ===*/
+#navbar {
     background-color: $background-color;
 
-    #navbar {
-        width: 100%;
+    #logo {
+        width: 10%;
+    }
 
-        .logo {
-            width: 20%;
-            padding-top: 15px;
-        }
-
-        #logo {
-            height: 100px;
-            padding: 15px 35px;
-            margin-bottom: 20px;
-        }
-
-        .link-items {
-            width: 70%;
-            padding: 60px 35px;
-
-            a {
-                display: inline-block;
-                text-align: center;
-                padding: 12px;
-                text-decoration: none;
-                font-size: 20px;
-                color: $white;
-            }
-
-            a:hover {
-                color: $hover-color;
-            }
-        }
+    #navbarSupportedContent {
+        color: $white;
+        font-size: 20px;
+        font-weight: bold;
     }
 }
 
-/*== Welcome Section ==*/
+/*=== Welcome Section ===*/
 #welcome-section {
-    border: 5px solid $light-brown;
     padding: 80px 0;
+    background-color: $pink;
 
     h1 {
         font-size: 35px;
         font-family: $headline-font;
-        text-align: center;
-        color: $background-color;
-    }
-
-    h3 {
-        font-size: 25px;
-        font-family: $headline-font;
-        text-align: center;
-    }
-}
-
-/*== Artist Statement ==*/
-#artist-statement {
-    padding: 40px;
-    height: 600px;
-
-    .half-width {
-        width: 100%;
-    }
-
-    img {
-        width: 100%;
-    }
-
-    p {
-        line-height: 32px;
-        margin-left: 20px;
-    }
-}
-
-/*== Mission quote ==*/
-#mission-quote {
-    padding: 80px;
-    background-color: $pink;
-
-    blockquote {
-        font-size: 25px;
         color: $white;
-    }
-}
-
-/* == Projects ==*/
-#projects {
-    padding: 20px;
-    height: 450px;
-
-    .third-width {
-        margin-right: 20px;
     }
 
     h2 {
         font-size: 30px;
         font-family: $headline-font;
-        color: $background-color;
-        text-align: center;
+        color: $white;
+    }
+}
+
+/*=== Artist Statement ===*/
+#artist-statement {
+    border: 5px solid $light-brown;
+    height: 650px;
+    padding: 20px 0;
+
+    p {
+        line-height: 32px;
+        padding: 20px;
+    }
+}
+
+/*=== Projects ===*/
+#projects {
+    padding: 40px 0;
+
+    h2 {
+        font-family: $headline-font;
+        font-size: 30px;
+        padding: 20px 0;
     }
 
     .project-tile {
-        text-align: center;
-
-        img {
-            width: 100%;
-            padding: 20px 0;
-        }
+        padding: 15px 0;
 
         h3 {
             font-family: $headline-font;
             font-size: 25px;
         }
 
-        caption {
-            font-size: 18px;
-            word-spacing: 15px;
-        }
-
         a {
             color: $pink;
+            font-size: 20px;
             text-decoration: none;
         }
 
@@ -169,53 +94,54 @@ header {
     }
 }
 
-/*== Contact ==*/
+/*=== Mission Quote ===*/
+#mission-quote {
+    background-color: $pink;
+    padding: 80px 45px;
+
+    blockquote {
+        font-size: 30px;
+        color: $white;
+        font-family: $headline-font;
+    }
+}
+
+/*=== Contact ===*/
 #contact {
     border: 5px solid $light-brown;
-    padding: 15px;
-    height: 150px;
+    padding: 20px 0;
 
     h2 {
-        text-align: center;
-        font-family: $headline-font;
         font-size: 30px;
+        font-family: $headline-font;
         color: $background-color;
     }
 
     p {
         font-size: 18px;
         text-align: center;
+        padding: 15px 0;
     }
 
-    ul {
-        padding-left: 55px;
+    .nav {
+        padding: 10px 0;
 
-        li {
-            list-style-type: none;
-            display: inline-block;
-            padding-left: 15px;
+        a {
+            color: $pink;
+        }
 
-            a {
-                color: $pink;
-                text-decoration: none;
-            }
-
-            a:hover {
-                color: $hover-color;
-            }
+        a:hover {
+            color: $hover-color;
         }
     }
 }
 
-/*== Footer ==*/
+/*=== Footer ===*/
 footer {
     background-color: $background-color;
-    width: 100%;
-    margin: 15px 0;
+    padding: 15px 0;
 
     p {
-        text-align: center;
-        font-size: 18px;
         color: $white;
     }
 }

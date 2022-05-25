@@ -54,8 +54,7 @@ body {
     #projects .project-tile a {
       color: #DA667B;
       font-size: 20px;
-      text-decoration: none;
-      margin-left: 120px; }
+      text-decoration: none; }
     #projects .project-tile a:hover {
       color: #F1E0C5; }
 
@@ -79,5 +78,18 @@ body {
   #contact p {
     font-size: 18px;
     text-align: center; }
+  #contact .nav {
+    margin-left: 25px; }
+    #contact .nav a {
+      color: #DA667B; }
+    #contact .nav a:hover {
+      color: #F1E0C5; }
+
+/*=== Footer ===*/
+footer {
+  background-color: #71816D;
+  padding: 15px 0; }
+  footer p {
+    color: #fff; }
 
 /*# sourceMappingURL=mobile.css.map */

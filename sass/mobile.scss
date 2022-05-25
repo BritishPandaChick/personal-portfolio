@@ -86,7 +86,6 @@ body {
             color: $pink;
             font-size: 20px;
             text-decoration: none;
-            margin-left: 120px;
         }
 
         a:hover {
@@ -121,5 +120,27 @@ body {
     p {
         font-size: 18px;
         text-align: center;
+    }
+
+    .nav {
+        margin-left: 25px;
+
+        a {
+            color: $pink;
+        }
+
+        a:hover {
+            color: $hover-color;
+        }
+    }
+}
+
+/*=== Footer ===*/
+footer {
+    background-color: $background-color;
+    padding: 15px 0;
+
+    p {
+        color: $white;
     }
 }
