@@ -1,16 +1,14 @@
-# Dorothy DeLong Personal Portfolio
-freecodecamp Responsive web Design project. Personal Portfolio Webpage.
+# Dorothy DeLong Personal Portfolio Web Page
+freecodecamp Responsive web Design project
 
-## Dependencies 
+## Tech Stack
 * HTML
 * CSS
 * Bootstrap
 
 ## Instructions
-Clone or download zip file. Open index.html file in your browser.
-
-## Contributing
-I will not be accepting pull requests.
+1. Clone or download zip file. 
+2. Open index.html file in your browser.
 
 ## Acknowledgements 
 * freecodecamp
